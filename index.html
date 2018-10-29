@@ -12,12 +12,51 @@
     <div class="container">
       <h1 class="jumbotron">Places I've Been</h1>
       <div class="intro">
-        <p>I've been to a few places.</p>
+        <p id="clickHere">I've been to a few places.</p>
         <p> 'm going to talk about some of them.</p>
         <p>I'm going to do that here.</p>
-        <p>And you can't stop me</p>
+        <p id="testy">And you can't stop me</p>
       </div>
     </div>
+
+    <div>
+      <form id="survey" class="entry-form">
+
+       <div class="form-group">
+         <label for="location">Location name:</label>
+         <input id="location" type="text" class="form-control"></input>
+       </div>
+
+       <div class="form-group">
+         <label for="terrain">Terrain type:</label>
+         <input id="terrain" type="text" class="form-control"></input>
+       </div>
+
+       <div class="form-group">
+         <label for="dateVisited">Date visited:</label>
+         <input id="dateVisited" type="text" class="form-control"></input>
+       </div>
+
+       <div class="form-group">
+         <label for="tripNotes">Trip notes:</label>
+         <input id="tripNotes" type="text" class="form-control"></input>
+       </div>
+
+       <div class="log-entry">
+         <label class="center">
+          <button class="btn btn-success" type="submit">Add to Log</button>
+         </label>
+       </div>
+     </form>
+   </div>
+
+
+   <div>
+     <p  id="results">hey htere resluts</p>
+   </div>
+
+
+
 
   </body>
 </html>
