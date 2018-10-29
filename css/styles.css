@@ -1,0 +1,10 @@
+body {
+  text-align: center;
+}
+
+.intro {
+  margin-left: 300px;
+  margin-right: 200px;
+  text-align: left;
+  background-color: rgb(0, 0, 0, 0.3);
+}
